@@ -69,7 +69,7 @@ function Contact() {
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
-            value={message}
+            value={formData.message}
             onChange={handleChange}
           ></textarea>
             {error.message && <span>{error.message}</span>}
