@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import Footer from './components/Footer';
 
 
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         path: '/Contact',
         element: <Contact />,
       },
+        {
+            path: '/Resume',
+            element: <Resume />,
+        }
     ],
     
   },
