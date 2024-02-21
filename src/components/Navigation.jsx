@@ -4,7 +4,10 @@ function Navigation() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs justify-content-end">
+    <ul className="nav nav-tabs navbar-expand-lg bg-body-tertiary">
+      <li className="nav-item nav-link navbar-brand">
+        <h1 id="AB">AB</h1>
+      </li>
       <li className="nav-item">
         <Link
           to="/"
