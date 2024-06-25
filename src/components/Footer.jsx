@@ -3,7 +3,7 @@ export default function Footer() {
       <div>
         
         <footer>
-        <p> Amanuel Berhe &copy</p>
+        <p>&copy; Amanuel Berhe 2024</p>
         </footer>
       </div>
     );
